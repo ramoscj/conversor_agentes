@@ -14,7 +14,6 @@ def configuracionXmlArchivos(archivo):
         for archivoVariable in archivoXml.iter('archivo-carga'):
             # TAG <archivo-carga>
             archivoSalida = archivoVariable.attrib.get('patron')
-            archivoSalida += '_CR'
             archivoSalidaTxt.append(archivoSalida)
             variablesIcomXml = dict()
             inicioIcomXml = dict()
@@ -36,7 +35,3 @@ def configuracionXmlArchivos(archivo):
     except Exception as e:
         error = 'Error al leer archivo: %s | %s' % (archivo, e)
         return error
-
-# w, x, y ,z = configuracionXmlArchivos('Variables.xml')
-# if x[0].get(None) == 0:
-# print(w)

@@ -1,17 +1,9 @@
-from openpyxl import load_workbook
 from tqdm import tqdm
-import datetime
 import csv
 
-import atexit
-import os.path
-import sys
-
 from variablesConfiguracion import POLIZA_CONFIG, CODIGOS_GAGU_CONFIG, CUOTA_CONFIG, AGENTE_CONFIG, COLUMNAS_ENCABEZADO, PATH_ARCHIVOS
-from crearCsv import salidaArchivoTxt
 
 from crearRegistro import *
-from leerXml import configuracionXmlArchivos
 
 def leerCargaIcom(archivoConsolidado, configuracionXml:[]):
 

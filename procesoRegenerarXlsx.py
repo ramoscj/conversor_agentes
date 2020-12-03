@@ -39,7 +39,7 @@ try:
         archivosEscritos = 0
         for archivo in range(0,len(dataArchivosAgentes)):
             archivoTxt, separador, extension = str(dataArchivosAgentes[archivo]['NOMBRE_ARCHIVO']).partition('yyyymm')
-            salidaTxt = rutaArchivosGenerados + archivoTxt + fechaProceso + extension
+            salidaTxt = rutaArchivosGenerados + archivoTxt + fechaProceso + '_CAR' + extension
             escribirTxt = salidaArchivoTxt(salidaTxt, dataArchivosAgentes[archivo]['DATA'], dataArchivosAgentes[archivo]['ENCABEZADO'])
             if escribirTxt is not str:
                 PROCESO_LOG.setdefault('ESCRITURA_ARCHIVO_TXT_%s' % archivo, {len(PROCESO_LOG)+1: 'Escritura del archivo: %s, registros escritos: %s' % (salidaTxt, len(dataArchivosAgentes[archivo]['DATA'])+1)})

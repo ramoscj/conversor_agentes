@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<datos-fuente>
+	<!-- VARIABLES METLIFE -->
+
+	<archivo-carga patron="UF_MES_yyyymm.txt">
+		<dato-fuente nombre="UF_MES">
+			<variable-icom nombre="UF_MES"/>
+		</dato-fuente>
+	</archivo-carga>
+
+	<archivo-carga patron="POLIZAyyyymm.txt">
+		<dato-fuente nombre="VIGENTE">
+			<variable-icom nombre="VIGENTE"/>
+		</dato-fuente>
+		<dato-fuente nombre="CONTRATO">
+			<variable-icom nombre="CONTRATO"/>
+		</dato-fuente>
+		<dato-fuente nombre="PRODUCTO">
+			<variable-icom nombre="PRODUCTO"/>
+		</dato-fuente>
+		<dato-fuente nombre="PB_ANUALIZADA">
+			<variable-icom nombre="PB_ANUALIZADA"/>
+		</dato-fuente>
+		<dato-fuente nombre="FRECUENCIA">
+			<variable-icom nombre="FRECUENCIA"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANTIGUEDAD_POLIZA">
+			<variable-icom nombre="ANTIGUEDAD_POLIZA"/>
+		</dato-fuente>
+		<dato-fuente nombre="CODIGO_ASESOR">
+			<variable-icom nombre="CODIGO_ASESOR"/>
+		</dato-fuente>
+		<dato-fuente nombre="REACTIVADA">
+			<variable-icom nombre="REACTIVADA"/>
+		</dato-fuente>
+		<dato-fuente nombre="REEMPLAZO">
+			<variable-icom nombre="REEMPLAZO"/>
+		</dato-fuente>
+		<dato-fuente nombre="APORTE">
+			<variable-icom nombre="APORTE"/>
+		</dato-fuente>
+		<dato-fuente nombre="RESCATE">
+			<variable-icom nombre="RESCATE"/>
+		</dato-fuente>
+		<dato-fuente nombre="SANGUINEA">
+			<variable-icom nombre="SANGUINEO"/>
+		</dato-fuente>
+		<dato-fuente nombre="TRASPASO">
+			<variable-icom nombre="TRASPASO"/>
+		</dato-fuente>
+		<dato-fuente nombre="NO_VISITADA">
+			<variable-icom nombre="NO_VISITADA"/>
+		</dato-fuente>
+		<dato-fuente nombre="VALOR_POLIZA">
+			<variable-icom nombre="VALOR_POLIZA"/>
+		</dato-fuente>
+		<dato-fuente nombre="PE_ANUALIZADA">
+			<variable-icom nombre="PE_ANUALIZADA"/>
+		</dato-fuente>
+		<dato-fuente nombre="FORMA_PAGO">
+			<variable-icom nombre="FORMA_PAGO"/>
+		</dato-fuente>
+		<dato-fuente nombre="CARGO_ASESOR">
+			<variable-icom nombre="CARGO_ASESOR"/>
+		</dato-fuente>
+		<dato-fuente nombre="PRIMA_ESPERADA">
+			<variable-icom nombre="PRIMA_ESPERADA"/>
+		</dato-fuente>
+		<dato-fuente nombre="PAGA_POLIZA">
+			<variable-icom nombre="PAGA_POLIZA"/>
+		</dato-fuente>
+		<dato-fuente nombre="PAGO_CODIGO">
+			<variable-icom nombre="PAGO_CODIGO"/>
+		</dato-fuente>
+		<dato-fuente nombre="FLAG_ESPORADICO">
+			<variable-icom nombre="FLAG_ESPORADICO"/>
+		</dato-fuente>
+		<dato-fuente nombre="POLIZAS_CONTRATADAS">
+			<variable-icom nombre="POLIZAS_CONTRATADAS"/>
+		</dato-fuente>
+		<dato-fuente nombre="AUMENTO_PB_POLIZA">
+			<variable-icom nombre="AUMENTO_PB_POLIZA"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANULADA_1">
+			<variable-icom nombre="ANULADA_1"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANULADA_2">
+			<variable-icom nombre="ANULADA_2"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANULADA_3">
+			<variable-icom nombre="ANULADA_3"/>
+		</dato-fuente>
+	</archivo-carga>
+	
+	<archivo-carga patron="AGENTEyyyymm.txt">
+		<dato-fuente nombre="ANTIGUEDAD_CARGO">
+			<variable-icom nombre="ANTIGUEDAD_CARGO"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_BASICA_S24">
+			<variable-icom nombre="P_BASICA_S24"/>
+		</dato-fuente>
+		<dato-fuente nombre="TIPO_CONTRATO">
+			<variable-icom nombre="TIPO_CONTRATO"/>
+		</dato-fuente>
+		<dato-fuente nombre="DIAS_LICENCIA_C">
+			<variable-icom nombre="DIAS_LICENCIA_C"/>
+		</dato-fuente>
+		<dato-fuente nombre="DIAS_VACACIONES_H">
+			<variable-icom nombre="DIAS_VACACIONES_H"/>
+		</dato-fuente>
+		<dato-fuente nombre="TIPO_CARGO">
+			<variable-icom nombre="TIPO_SUBCARGO"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_BASICA_S12">
+			<variable-icom nombre="P_BASICA_S12"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_EXCESO_S24">
+			<variable-icom nombre="P_EXCESO_S24"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_EXCESO_S12">
+			<variable-icom nombre="P_EXCESO_S12"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_VIGENCIA_S24">
+			<variable-icom nombre="P_VIGENCIA_S24"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANTIGUEDAD_CIA">
+			<variable-icom nombre="ANTIGUEDAD_CIA"/>
+		</dato-fuente>
+		<dato-fuente nombre="VISITAS_REALIZADAS">
+			<variable-icom nombre="VISITAS_REALIZADAS"/>
+		</dato-fuente>
+		<dato-fuente nombre="DIAS_VACACIONES_C">
+			<variable-icom nombre="DIAS_VACACIONES_C"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_RUT_S12">
+			<variable-icom nombre="P_RUT_S12"/>
+		</dato-fuente>
+		<dato-fuente nombre="CODIGO_ASESOR_AG">
+			<variable-icom nombre="CODIGO_ASESOR_AG"/>
+		</dato-fuente>
+		<dato-fuente nombre="SOLO_COMISION">
+			<variable-icom nombre="SOLO_COMISION"/>
+		</dato-fuente>
+		<dato-fuente nombre="CUMPLIMIENTO">
+			<variable-icom nombre="PCTJ_CUMPLIMIENTO"/>
+		</dato-fuente>
+		<dato-fuente nombre="TRASPASOS_VIGENTES">
+			<variable-icom nombre="TRASPASOS_VIGENTES"/>
+		</dato-fuente>
+		<dato-fuente nombre="ANTIGUEDAD_2020">
+			<variable-icom nombre="ANTIGUEDAD_2020"/>
+		</dato-fuente>
+		<dato-fuente nombre="P_ECP2020_S24">
+			<variable-icom nombre="P_ECP2020_S24"/>
+		</dato-fuente>
+	</archivo-carga>
+	
+	<archivo-carga patron="CUOTAyyyymm.txt">
+		<dato-fuente nombre="VALOR_MENSUAL">
+			<variable-icom nombre="VALOR_MENSUAL"/>
+		</dato-fuente>
+		<dato-fuente nombre="PRIMA_BASICA">
+			<variable-icom nombre="PRIMA_BASICA"/>
+		</dato-fuente>
+		<dato-fuente nombre="MES_CUOTA">
+			<variable-icom nombre="MES_CUOTA"/>
+		</dato-fuente>
+		<dato-fuente nombre="PRIMA_EXCESO">
+			<variable-icom nombre="PRIMA_EXCESO_CUOTA"/>
+		</dato-fuente>
+		<dato-fuente nombre="PRIMA_ESPORADICA">
+			<variable-icom nombre="PRIMA_ESPORADICA"/>
+		</dato-fuente>
+		<dato-fuente nombre="RESCATES_MES">
+			<variable-icom nombre="RESCATES_MES"/>
+		</dato-fuente>
+	</archivo-carga>
+
+	<archivo-carga patron="CODIGOS_GAGUyyyymm.txt">
+		<dato-fuente nombre="AGENTE_GA_GU">
+			<variable-icom nombre="AGENTE_GA_GU"/>
+		</dato-fuente>
+		<dato-fuente nombre="CODIGO_GA_GU">
+			<variable-icom nombre="CODIGO_GA_GU"/>
+		</dato-fuente>
+	</archivo-carga>
+
+	<!-- VARIABLES METLIFE -->
+
+
+</datos-fuente>

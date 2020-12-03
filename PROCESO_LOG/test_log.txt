@@ -1,0 +1,9 @@
+Lectura del archivo: Variables2020.xml Ok
+Lectura del archivo: INPUTS/CARGA_VARIABLES_.csv Ok
+Iniciando escritura de: 5 archivo(s)
+Escritura del archivo: OUTPUTS/UF_MES_202010.txt, registros escritos: 2
+Escritura del archivo: OUTPUTS/POLIZA202010.txt, registros escritos: 305689
+Escritura del archivo: OUTPUTS/AGENTE202010.txt, registros escritos: 6315
+Escritura del archivo: OUTPUTS/CUOTA202010.txt, registros escritos: 161272
+Escritura del archivo: OUTPUTS/CODIGOS_GAGU202010.txt, registros escritos: 191
+Fin del proceso de lectura de: INPUTS/CARGA_VARIABLES_.csv y escritura de: 5 archivo(s)

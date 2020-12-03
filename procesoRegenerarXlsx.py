@@ -16,15 +16,13 @@ try:
         # rutaArchivosGenerados = sys.argv[3]
         # rutaArchivoXml = sys.argv[4]
         fechaProceso = '202010'
-        rutaArchivoConsolidado = '%s%s.csv' % (PATH_ARCHIVOS['ENTRADA_CSV'], 'CARGA_VARIABLES_')
+        rutaArchivoConsolidado = '%s%s.csv' % (PATH_ARCHIVOS['ENTRADA_CSV'], 'CARGA_VARIABLES')
         rutaArchivosGenerados = PATH_ARCHIVOS['SALIDA_TXT']
         rutaArchivoXml = 'Variables2020.xml'
 
         if not os.path.isfile(rutaArchivoConsolidado):
-            # PROCESO_LOG.setdefault('LECTURA_ARCHIVO_CONSOLIDADO', {len(PROCESO_LOG)+1: 'Error archivo: %s no encontrado' % rutaArchivoConsolidado})
             raise Exception('Error archivo: %s no encontrado' % rutaArchivoConsolidado)
         if not os.path.isfile(rutaArchivoXml):
-            # PROCESO_LOG.setdefault('LECTURA_ARCHIVO_XML', {len(PROCESO_LOG)+1: 'Error archivo: %s no encontrado' % rutaArchivoXml})
             raise Exception('Error archivo: %s no encontrado' % rutaArchivoXml)
 
         configuracionXml = list(configuracionXmlArchivos(rutaArchivoXml))
